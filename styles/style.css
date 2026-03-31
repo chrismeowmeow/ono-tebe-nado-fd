@@ -47,7 +47,7 @@
 .cover {
   display: flex;
   flex-direction: column;
-  min-height: 757px;
+  height: 757px;
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.805), rgba(0, 0, 0, 0.5)),
     url(../images/cover.jpg);
