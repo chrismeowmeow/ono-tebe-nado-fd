@@ -23,7 +23,6 @@
   justify-self: stretch;
   gap: 33px;
   list-style: circle;
-  justify-self: start;
 }
 
 .header-menu-list a {
