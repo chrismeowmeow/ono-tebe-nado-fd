@@ -1,1 +1,240 @@
-/* место для вашего кода */
+.header {
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  padding: 92px 50px 95px 50px;
+  font-size: 18px;
+  align-items: center;
+}
+
+.logo {
+  display: block;
+  width: 138px;
+  justify-self: center;
+}
+
+.logo-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.header-menu-list {
+  display: flex;
+  justify-self: stretch;
+  gap: 33px;
+  list-style: circle;
+  justify-self: start;
+}
+
+.header-menu-list a {
+  white-space: nowrap;
+}
+
+.header-menu-item-no-circle {
+  list-style: none;
+}
+
+.header-menu-item-no-circle a {
+  text-decoration: none;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin-left: auto;
+}
+
+.cover {
+  display: flex;
+  flex-direction: column;
+  min-height: 757px;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.805), rgba(0, 0, 0, 0.5)),
+    url(../images/cover.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 165px 50px 106px 50px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.cover-title {
+  font-size: 100px;
+  line-height: 115%;
+  letter-spacing: 30%;
+}
+
+.low {
+  display: block;
+  text-align: center;
+}
+
+.low-right {
+  display: block;
+  text-align: right;
+}
+
+.introduction {
+  margin-top: 106px;
+  text-transform: uppercase;
+  color: white;
+  font-size: 22px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 28px;
+  word-spacing: 90%;
+}
+
+.introduction button {
+  cursor: pointer;
+  background: none;
+  border: 1px solid #fff;
+  color: #fff;
+  width: 256px;
+  height: 51px;
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.lots {
+  margin-top: 180px;
+}
+
+.lots-title {
+  font-size: 40px;
+  margin-bottom: 27px;
+  text-transform: uppercase;
+  padding: 0 64px;
+}
+
+.lots-list {
+  display: flex;
+  gap: 25px;
+  padding: 0 24px;
+}
+
+.lot-card {
+  width: 334px;
+  min-height: 596px;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 48px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.lots-link {
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 120%;
+  letter-spacing: 0%;
+}
+
+.lots-info {
+  font-size: 20px;
+  line-height: 120%;
+}
+
+.lot-card-one {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.805), rgba(0, 0, 0, 0.5)),
+    url(../images/card-lot-01.jpg);
+}
+
+.lot-card-two {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.805), rgba(0, 0, 0, 0.5)),
+    url(../images/card-lot-02.jpg);
+}
+
+.lot-card-three {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.805), rgba(0, 0, 0, 0.5)),
+    url(../images/card-lot-03.jpg);
+}
+
+.watch-more-link {
+  padding-top: 30px;
+  padding-left: 64px;
+  font-size: 20px;
+}
+
+.about-container {
+  display: flex;
+}
+
+.about-logo {
+  margin-top: 150px;
+  margin-left: 71px;
+}
+
+.about-logo-image {
+  width: 240px;
+  height: 240px;
+}
+
+.about-auction-title {
+  margin-top: 253px;
+  margin-left: 72px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 100%;
+}
+
+.about-info {
+  margin-left: 72px;
+  margin-top: 100px;
+  line-height: 24px;
+  font-size: 20px;
+}
+
+.footer {
+  margin-top: 180px;
+  padding: 0 50px;
+  font-size: 18px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.footer-contacts {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 82px;
+  line-height: 24.3px;
+}
+
+.footer-menu-list {
+  list-style: none;
+  flex-direction: column;
+  text-align: center;
+  display: flex;
+  line-height: 100%;
+}
+
+.footer-link-without-decoration {
+  text-decoration: none;
+}
+
+.footer-socials {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.footer-socials img {
+  width: 45px;
+  height: 45px;
+}
