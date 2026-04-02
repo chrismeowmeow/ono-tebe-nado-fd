@@ -3,7 +3,7 @@
   inset: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.6);
   pointer-events: none;
   z-index: 1;
 }
@@ -47,17 +47,22 @@
   list-style: none;
 }
 
-.header__address {
+.address {
   display: flex;
   flex-direction: column;
-  margin-left: auto;
+  font-style: normal;
+  line-height: 24px;
+}
+
+.header__address {
+  margin-left: 190px;
 }
 
 .cover {
   display: flex;
   flex-direction: column;
   position: relative;
-  min-height: 757px;
+  max-height: 757px;
   background-image: url(../images/cover.jpg);
   background-size: cover;
   background-position: center;
@@ -69,7 +74,7 @@
 .cover__title {
   font-size: 100px;
   line-height: 115%;
-  letter-spacing: 30%;
+  letter-spacing: 0.3em;
 }
 
 .cover__title,
@@ -78,18 +83,26 @@
   z-index: 2;
 }
 
+.cover__title span {
+  display: block;
+  width: 100%;
+}
+
 .low {
   display: block;
   text-align: center;
+  margin-top: 20px;
+  margin-left: 20px;
 }
 
 .low__right {
   display: block;
   text-align: right;
+  margin-left: 25px;
 }
 
 .introduction {
-  margin-top: 100px;
+  margin-top: 105px;
   text-transform: uppercase;
   color: white;
   font-size: 22px;
@@ -134,8 +147,6 @@
 
 .lot__card {
   position: relative;
-  flex: 0 0 334px;
-  overflow: hidden;
   width: 334px;
   min-height: 596px;
   background-size: cover;
@@ -193,6 +204,7 @@
 
 .about__container {
   display: flex;
+  align-items: flex-start;
 }
 
 .about__logo {
@@ -206,7 +218,7 @@
 }
 
 .about__auction-title {
-  margin-top: 253px;
+  margin-top: 255px;
   margin-left: 72px;
   text-transform: uppercase;
   font-weight: 700;
@@ -216,16 +228,17 @@
 
 .about__info {
   display: flex;
+  min-width: 700px;
   flex-direction: column;
   gap: 24px;
-  margin-left: 72px;
-  margin-top: 100px;
+  margin-left: 70px;
+  margin-top: 105px;
   line-height: 24px;
   font-size: 20px;
 }
 
 .footer {
-  margin-top: 180px;
+  margin-top: 210px;
   padding: 0 50px;
   font-size: 18px;
   margin-bottom: 82px;
@@ -236,14 +249,6 @@
   justify-content: space-between;
   align-items: flex-start;
   gap: 50px;
-  flex-wrap: wrap;
-}
-
-.footer__contacts {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 82px;
-  line-height: 24.3px;
 }
 
 .footer__menu-list {
@@ -262,12 +267,6 @@
   display: flex;
   gap: 48px;
   align-items: center;
-}
-
-.footer__address {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 20px;
 }
 
 .footer__socials img {
