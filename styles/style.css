@@ -62,11 +62,11 @@
   display: flex;
   flex-direction: column;
   position: relative;
-  max-height: 757px;
+  min-height: 757px;
   background-image: url(../images/cover.jpg);
   background-size: cover;
   background-position: center;
-  padding: 165px 50px 106px 50px;
+  padding: 165px 50px 50px;
   color: #fff;
   text-transform: uppercase;
 }
